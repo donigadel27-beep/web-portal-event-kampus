@@ -1,0 +1,140 @@
+/* ===== RESET RINGAN ===== */
+* {
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  background: linear-gradient(135deg, #ffd6e8, #e6e9ff);
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+  text-align: center;
+  background: linear-gradient(135deg, #f8a8d8, #c6b7ff);
+  color: white;
+  padding: 30px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+/* HOVER HEADER */
+header:hover {
+  background: linear-gradient(135deg, #c6b7ff, #f8a8d8);
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* ===== MAIN ===== */
+main {
+  padding: 30px 15px;
+}
+
+/* ===== CARD ===== */
+.event-card,
+.form-section {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* HOVER CARD */
+.event-card:hover,
+.form-section:hover {
+  transform: translateY(-4px);
+  background-color: #f6f3ff;
+}
+
+/* ===== JUDUL SECTION ===== */
+h2 {
+  margin-top: 0;
+  color: #6b4eff;
+  transition: color 0.3s ease;
+}
+
+/* HOVER JUDUL */
+h2:hover {
+  color: #ff86c2;
+}
+
+/* ===== FORM ===== */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* HOVER INPUT */
+input:hover,
+select:hover {
+  border-color: #ff9fcf;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #a38bff;
+  box-shadow: 0 0 0 2px rgba(163, 139, 255, 0.2);
+}
+
+/* input tidak valid */
+input:invalid {
+  border: 2px solid #ff7a7a;
+}
+
+/* ===== BUTTON ===== */
+button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #ff9fcf, #a38bff);
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* HOVER BUTTON (BERUBAH WARNA JELAS) */
+button:hover {
+  background: linear-gradient(135deg, #8f76ff, #ff86c2);
+  transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 40px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+/* HOVER FOOTER */
+footer:hover {
+  background-color: rgba(255, 214, 232, 0.8);
+}

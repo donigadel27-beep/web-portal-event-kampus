@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portal Event Kampus</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Portal Event Kampus</h1>
+    </header>
+
+    <main>
+      <!-- Informasi Event -->
+      <section class="event-card">
+        <h2>Workshop Web Development</h2>
+        <p><strong>Tanggal:</strong> 20 Januari 2026</p>
+
+        <p id="eventDetail">
+          Event ini membahas dasar HTML, CSS, dan JavaScript untuk pemula yang
+          ingin memahami web development.
+        </p>
+
+        <button id="toggleBtn">Sembunyikan Detail Event</button>
+      </section>
+
+      <!-- Form Pendaftaran -->
+      <section class="form-section">
+        <h2>Form Pendaftaran</h2>
+
+        <form id="registrationForm">
+          <label>Nama</label>
+          <input type="text" id="nama" required />
+
+          <label>Email</label>
+          <input type="email" id="email" required />
+
+          <label>Jenis Peserta</label>
+          <select id="jenis" required>
+            <option value="">-- Pilih --</option>
+            <option value="Mahasiswa">Mahasiswa</option>
+            <option value="Umum">Umum</option>
+          </select>
+
+          <button type="submit">Daftar</button>
+        </form>
+
+        <p>
+          Jumlah Peserta Terdaftar: <strong><span id="counter">0</span></strong>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Portal Event Kampus</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
